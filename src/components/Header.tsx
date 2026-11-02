@@ -54,7 +54,7 @@ export const Header: React.FC = () => {
           >
             <div className="relative w-12 h-12 rounded-2xl bg-white border border-amber-200/90 shadow-sm p-1 flex items-center justify-center group-hover:scale-105 transition-transform overflow-hidden flex-shrink-0">
               <img
-                src="/logo-sastreria.svg"
+                src={`${import.meta.env.BASE_URL}logo-sastreria.svg`}
                 alt="Logo Sastrería JTH"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-contain"
