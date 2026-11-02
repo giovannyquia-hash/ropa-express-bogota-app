@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#C5A059" />
+      <stop offset="100%" stop-color="#A88438" />
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&amp;family=Plus+Jakarta+Sans:wght@500;600;700&amp;display=swap');
+      .brand-title {
+        font-family: 'Cinzel', 'Playfair Display', Didot, 'Bodoni MT', Georgia, serif;
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        fill: #181c24;
+      }
+      .brand-sub {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 5.5px;
+        fill: #181c24;
+      }
+      .brand-initials {
+        font-family: 'Cinzel', 'Plus Jakarta Sans', serif;
+        font-size: 19px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        fill: url(#goldGrad);
+      }
+      .brand-phone {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        fill: #181c24;
+      }
+    </style>
+  </defs>
+
+  <!-- Mannequin / Dressmaker Form -->
+  <g id="mannequin" transform="translate(115, 20)">
+    <!-- Top Finial Knob -->
+    <path d="M 20 18 C 17 18 15 15.5 15 13 C 15 10 17 8 20 8 C 23 8 25 10 25 13 C 25 15.5 23 18 20 18 Z" 
+          stroke="url(#goldGrad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Neck -->
+    <path d="M 16 18 L 16 26 M 24 18 L 24 26" 
+          stroke="url(#goldGrad)" stroke-width="2.2" stroke-linecap="round"/>
+    
+    <!-- Torso Contour -->
+    <path d="M 5 36 
+             C 8 32, 13 28, 20 28 
+             C 27 28, 32 32, 35 36
+             C 32 46, 29 55, 28 66
+             C 27.5 72, 31 82, 33 90
+             C 34 94, 33 98, 20 98
+             C 7 98, 6 94, 7 90
+             C 9 82, 12.5 72, 12 66
+             C 11 55, 8 46, 5 36 Z" 
+          stroke="url(#goldGrad)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- Inner Tailor Seam Lines -->
+    <path d="M 20 28 L 20 98" stroke="url(#goldGrad)" stroke-width="1.2" stroke-dasharray="2 2" stroke-linecap="round"/>
+    <path d="M 10 52 C 15 54, 25 54, 30 52" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M 12 66 C 16 68, 24 68, 28 66" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Stand Rod -->
+    <path d="M 20 98 L 20 128" stroke="url(#goldGrad)" stroke-width="2.4" stroke-linecap="round"/>
+    
+    <!-- Tripod Base -->
+    <path d="M 20 120 L 7 136 M 20 120 L 33 136 M 20 122 L 20 138" 
+          stroke="url(#goldGrad)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Flowing Thread Line from Mannequin Waist across to the right -->
+  <path d="M 143 86 
+           C 165 89, 195 90, 220 82 
+           C 255 72, 290 67, 335 71 
+           C 375 75, 415 76, 450 72
+           C 475 69, 490 73, 475 76
+           C 455 80, 410 80, 360 81
+           C 310 82, 260 88, 220 92
+           C 185 95, 160 92, 142 90" 
+        stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- SASTRERÍA -->
+  <g transform="translate(270, 185)" text-anchor="middle">
+    <text class="brand-title" x="0" y="0">SASTRERÍA</text>
+    <!-- Golden Accent over the Í -->
+    <path d="M 68 -48 L 78 -59" stroke="url(#goldGrad)" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- A DOMICILIO —— JTH -->
+  <g transform="translate(270, 222)" text-anchor="middle">
+    <!-- Subtitle text -->
+    <text class="brand-sub" x="-58" y="0">A DOMICILIO</text>
+    
+    <!-- Needle / Golden Divider Line -->
+    <path d="M 38 -4 L 102 -4" stroke="#181c24" stroke-width="1.8" stroke-linecap="round"/>
+    <ellipse cx="94" cy="-4" rx="3.5" ry="1.2" stroke="url(#goldGrad)" stroke-width="1.5" fill="none"/>
+    <circle cx="102" cy="-4" r="1.5" fill="#181c24"/>
+    
+    <!-- Initials JTH -->
+    <text class="brand-initials" x="135" y="1">JTH</text>
+  </g>
+
+  <!-- WhatsApp Contact Line: Icon + Phone -->
+  <g transform="translate(270, 276)" text-anchor="middle">
+    <!-- WhatsApp Outline Icon -->
+    <g transform="translate(-118, -14)">
+      <path d="M 12 2 C 6.48 2 2 6.48 2 12 C 2 13.85 2.5 15.58 3.38 17.07 L 2.05 21.95 L 7.07 20.64 C 8.52 21.5 10.2 22 12 22 C 17.52 22 22 17.52 22 12 C 22 6.48 17.52 2 12 2 Z" 
+            stroke="#181c24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path d="M 8.5 7.5 C 8.2 6.8 7.8 6.8 7.4 6.8 C 7.1 6.8 6.8 6.8 6.5 7.1 C 6.2 7.4 5.5 8.1 5.5 9.5 C 5.5 10.9 6.5 12.3 6.7 12.5 C 6.8 12.7 8.7 15.6 11.5 16.8 C 13.9 17.8 14.4 17.6 14.9 17.5 C 15.5 17.4 16.8 16.7 17.1 15.9 C 17.4 15.1 17.4 14.4 17.3 14.3 C 17.2 14.2 17.0 14.1 16.6 13.9 C 16.2 13.7 14.2 12.7 13.8 12.6 C 13.5 12.4 13.2 12.4 13.0 12.7 C 12.7 13.1 12.0 14.0 11.7 14.3 C 11.5 14.5 11.3 14.5 10.9 14.3 C 10.5 14.1 9.3 13.7 7.9 12.4 C 6.8 11.4 6.1 10.2 5.9 9.8 C 5.7 9.4 5.9 9.2 6.1 9.0 C 6.3 8.8 6.5 8.5 6.7 8.3 C 6.9 8.1 7.0 7.9 7.1 7.7" 
+            fill="#181c24"/>
+    </g>
+    <!-- Phone Number -->
+    <text class="brand-phone" x="12" y="3">+57 319 278 7603</text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Ropa Express Bogotá",
+  "description": "Servicio de lavado, planchado y arreglo de ropa a domicilio en Bogotá.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
