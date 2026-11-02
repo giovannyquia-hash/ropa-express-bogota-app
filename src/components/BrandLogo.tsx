@@ -55,7 +55,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
       <div className={`flex items-center gap-3.5 ${className}`}>
         <div className="relative w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-gradient-to-br from-slate-900 via-slate-900 to-blue-950 p-2 flex items-center justify-center shadow-md shadow-slate-900/15 border border-amber-500/20 flex-shrink-0 group-hover:scale-105 transition-transform">
           <img
-            src="/logo-sastreria.svg"
+            src={`${import.meta.env.BASE_URL}logo-sastreria.svg`}
             alt="Logo Sastrería JTH"
             referrerPolicy="no-referrer"
             className="w-full h-full object-contain filter drop-shadow-[0_1px_2px_rgba(212,175,55,0.4)]"
@@ -101,7 +101,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
           title="Contactar al taller de Sastrería JTH vía WhatsApp"
         >
           <img
-            src="/logo-sastreria.svg"
+            src={`${import.meta.env.BASE_URL}logo-sastreria.svg`}
             alt="Sastrería a Domicilio JTH - Logo Oficial"
             referrerPolicy="no-referrer"
             className="w-full max-w-[380px] sm:max-w-[420px] h-auto drop-shadow-sm mx-auto"
